@@ -1,0 +1,20 @@
+<form (ngSubmit)="onSubmit()">
+    <label>
+      Aplicación:
+      <input [(ngModel)]="formData.aplicacion" name="aplicacion" required />
+    </label>
+    <label>
+      Tipo de Afiliación:
+      <input [(ngModel)]="formData.tipoAfiliacion" name="tipoAfiliacion" required />
+    </label>
+    <label>
+      Nombre:
+      <input [(ngModel)]="formData.nombre" name="nombre" required />
+    </label>
+    <label>
+      Rubro:
+      <input [(ngModel)]="formData.rubro" name="rubro" required />
+    </label>
+    <button type="submit">Enviar</button>
+  </form>
+  
